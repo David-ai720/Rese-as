@@ -88,7 +88,9 @@ body {
 
 @media (max-width: 768px) {
     .Reseñas {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
     .Morado,
     .Gris,
@@ -100,6 +102,7 @@ body {
     }
 }
    
+
 
 
 
