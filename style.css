@@ -90,4 +90,14 @@ body {
     .Reseñas {
         grid-template-columns: 1fr;
     }
+    .Reseñas {
+        grid-column: auto;
+        grid-row: auto;   
 }
+    .Morada { order: 1; }
+    .Gris { order: 2; }
+    .Blanco { order: 3; }
+    .Negro { order: 4; }
+    .Blanco-2 { order: 5; }
+}
+
