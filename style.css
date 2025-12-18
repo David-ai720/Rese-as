@@ -90,11 +90,13 @@ body {
     .Reseñas {
         display: flex;
         flex-direction: column;
+        grid-template-columns: 1fr !important;
         grid-column: auto;
     }
 }
 
    
+
 
 
 
